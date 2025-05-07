@@ -1,0 +1,19 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px;
+  transition: all 0.5s ease-in-out 0.5s;
+  font-size: 50px;
+  color: white;
+}
+.container:hover {
+  transform: translate(200px, 0) scale(1.1) rotate(360deg);
+  border-radius: 100%;
+  /* transform: scale(1.2); */
+  /* transform: rotate(360deg); */
+  /* transform: skew(-45deg); */
+  background-color: green;
+  transition: all 2s ease-in 0s;
+  
+}

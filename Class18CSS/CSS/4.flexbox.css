@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.item1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
+.item2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+}
+.item3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+}
+.container4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.item4 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  font-size: 50px;
+}
+.container5 {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+  align-items: center;
+}
+.item5 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+}
+
+.container6 {
+  display: flex;
+  align-self: first baseline;
+}
+.item6 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 1px;
+  color: white;
+  font-size: 50px;
+}
+
+.container7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item7 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+  color: white;
+  font-size: 50px;
+  flex: 1 1 calc(33.333% - 10px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  padding: 20px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}

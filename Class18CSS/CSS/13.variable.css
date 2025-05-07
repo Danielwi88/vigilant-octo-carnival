@@ -1,0 +1,18 @@
+:root {
+  --main-bg-color: rgb(12, 240, 240);
+  --main-text-color: white;
+  --main-font-family: 'Times New Roman', Times, serif;
+  --main-font-size: 20px;
+}
+.header {
+  --header-bg-color: green;
+}
+.header {
+  background-color: var(--header-bg-color);
+}
+body {
+  background-color: var(--main-bg-color);
+}
+.headerJuga{
+  background-color: var(--main-text-color);
+}

@@ -1,0 +1,5 @@
+.calc-width-example {
+  width: calc(100%-40px);
+  background-color: lightsalmon;
+  padding: 20px;
+}
